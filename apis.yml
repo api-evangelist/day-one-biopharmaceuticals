@@ -1,8 +1,27 @@
 aid: day-one-biopharmaceuticals
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/day-one-biopharmaceuticals.png
 name: Day One Biopharmaceuticals
-description: Day One Biopharmaceuticals is a company surfaced as a portfolio company of canaan-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Day One Biopharmaceuticals is a commercial-stage biopharmaceutical company developing and
+  commercializing targeted therapies for people of all ages living with life-threatening diseases,
+  with an initial focus on pediatric and rare cancers. Its lead product OJEMDA (tovorafenib) is an
+  FDA-approved treatment for relapsed or refractory pediatric low-grade glioma, and its pipeline
+  includes DAY301 and the antibody-drug conjugate Emi-Le. Headquartered in Brisbane, California, the
+  company was acquired by and is now part of the Servier Group as of March 2026. Day One was surfaced
+  as a portfolio company of Canaan Partners and added to the API Evangelist network; it maintains a
+  corporate and investor-relations web presence but publishes no public developer API, SDK, or
+  programmatic surface.
 url: https://raw.githubusercontent.com/api-evangelist/day-one-biopharmaceuticals/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +31,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biopharmaceutical
+- Oncology
+- Pediatric Cancer
+- Rare Disease
+- Pharmaceuticals
+- Biotechnology
+- Life Sciences
+- Servier Group
 apis: []
+common:
+- type: DomainSecurity
+  url: security/day-one-biopharmaceuticals-domain-security.yml
+- type: WellKnown
+  url: well-known/day-one-biopharmaceuticals-well-known.yml
+- type: LLMsTxt
+  url: llms/day-one-biopharmaceuticals-llms.txt
+- type: Website
+  url: https://www.dayonebio.com
+- type: PrivacyPolicy
+  url: https://www.dayonebio.com/privacy-notice
+- type: TermsOfService
+  url: https://www.dayonebio.com/terms-of-use
+- type: Support
+  name: Contact Us
+  url: https://www.dayonebio.com/our-company/contact-us/
+- type: Investors
+  url: https://ir.dayonebio.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

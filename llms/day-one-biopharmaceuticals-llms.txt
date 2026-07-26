@@ -1,0 +1,19 @@
+# Day One Biopharmaceuticals
+
+> Commercial-stage biopharmaceutical company developing and commercializing targeted therapies for people of all ages with life-threatening diseases, with an initial focus on pediatric and rare cancers. Lead product OJEMDA (tovorafenib) is FDA-approved for relapsed or refractory pediatric low-grade glioma; pipeline includes DAY301 and the antibody-drug conjugate Emi-Le. Headquartered in Brisbane, California, and now part of the Servier Group (acquired March 2026). No public developer API or SDK is published.
+
+## Company
+- [Website](https://www.dayonebio.com): Corporate homepage.
+- [Contact Us](https://www.dayonebio.com/our-company/contact-us/): Corporate contact.
+- [Careers](https://www.dayonebio.com/careers/overview-careers/): Open roles.
+
+## Investors & News
+- [Investor Relations](https://ir.dayonebio.com/): Financials, filings, and governance.
+- [News Releases](https://ir.dayonebio.com/news-releases/): Press releases and announcements.
+
+## Legal
+- [Privacy Notice](https://www.dayonebio.com/privacy-notice): Privacy policy.
+- [Terms of Use](https://www.dayonebio.com/terms-of-use): Website terms of use.
+
+## Network
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/day-one-biopharmaceuticals/refs/heads/main/apis.yml): API Evangelist network profile for this company.

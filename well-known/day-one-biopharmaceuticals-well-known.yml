@@ -1,0 +1,18 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of https://www.dayonebio.com/.well-known/*
+host: https://www.dayonebio.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  Day One Biopharmaceuticals is a corporate/investor web presence with no developer or API surface.
+  No .well-known discovery documents are published. Absence recorded as valid, expected data.
